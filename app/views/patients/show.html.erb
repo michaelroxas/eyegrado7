@@ -8,3 +8,24 @@
 
   <%= button_to "Destroy this patient", @patient, method: :delete %>
 </div>
+
+<h2>Add record:</h2>
+<%= form_with model: [ @patient, @patient.records.build ] do |form| %>
+  <p>
+    <%= form.label :right_eye_sph %><br>
+    <%= form.text_field :sph %>
+  </p>
+  <p>
+    <%= form.label :right_eye_cyl %><br>
+    <%= form.text_field :cyl %>
+  </p>
+  <p>
+    <%= form.label :right_eye_axis %><br>
+    <%= form.text_field :axis %>
+  </p>
+  
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
