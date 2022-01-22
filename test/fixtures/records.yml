@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  right_eye_sph: MyString
+  right_eye_cyl: MyString
+  right_eye_axis: MyString
+  left_eye_sph: MyString
+  left_eye_cyl: MyString
+  left_eye_axis: MyString
+  both_eyes_add: MyString
+
+two:
+  right_eye_sph: MyString
+  right_eye_cyl: MyString
+  right_eye_axis: MyString
+  left_eye_sph: MyString
+  left_eye_cyl: MyString
+  left_eye_axis: MyString
+  both_eyes_add: MyString
